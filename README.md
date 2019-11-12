@@ -1,15 +1,15 @@
 # Cheat sheet
 ## Git
-1. Не следить за изменениями в файле 
+* Не следить за изменениями в файле 
     ```console
     $ git update-index --assume-unchanged FILE_NAME
     ```
-1. Следить за изменениями в файле 
+* Следить за изменениями в файле 
     ```console
     $ git update-index --no-assume-unchanged FILE_NAME
     ```
 ## Docker
-1. Привязка домена к контейнеру
+* Привязка домена к контейнеру
     ```yaml
     services:
       service:
@@ -19,7 +19,7 @@
               - demo.local  
     ```
 # Resources
-1. Деплой с помощью
+* Деплой с помощью
    [git hooks](https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa)
 ## Git
 ## Laravel
