@@ -8,6 +8,13 @@
     ```console
     $ git update-index --no-assume-unchanged FILE_NAME
     ```
+* Удалить только из репозитория
+    ```console
+    $ git rm --cached file
+    $ git rm -r --cached dir
+    ```
+* Несколько
+
 ## Docker
 * Привязка домена к контейнеру
     ```yaml
@@ -18,9 +25,8 @@
             aliases:
               - demo.local  
     ```
+
 # Resources
 * Деплой с помощью
    [git hooks](https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa)
-## Git
-## Laravel
-## Docker
+* Несколько аккаунтов [gitlab](https://medium.com/uncaught-exception/setting-up-multiple-gitlab-accounts-82b70e88c437)
