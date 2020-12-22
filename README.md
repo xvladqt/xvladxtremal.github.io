@@ -13,6 +13,12 @@
     $ git rm --cached file
     $ git rm -r --cached dir
     ```
+* commit diff to archive
+    ```console
+    $ git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT $COMMIT_SHA | xargs zip -r0 update.zip $1
+    $ git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT $COMMIT_SHA | xargs tar -rf update.tar
+    ```
+  
 
 ## Docker
 * Привязка домена к контейнеру
